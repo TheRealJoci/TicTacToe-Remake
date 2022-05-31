@@ -36,6 +36,14 @@ Compose up to run the app:
 user@host:~$ sudo docker-compose up
 ```
 
+**REMINDER**
+
+After any changes to the project requirements rebuild the service:
+
+```console
+user@host:~$ sudo docker-compose build --no-cache [SERVICE...]
+```
+
 ## TODOs
 
 * [ ] Refactor the old app
