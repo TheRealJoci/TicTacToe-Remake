@@ -2,7 +2,7 @@
 
 ## Project description
 
-A simple Django web implementation of a classic game: Tic Tac Toe to showcase the use of:
+A simple Django web implementation of a classic game Tic Tac Toe, to showcase the use of:
 
 * Docker - a software framework for containerizing applications
   
@@ -16,7 +16,7 @@ A simple Django web implementation of a classic game: Tic Tac Toe to showcase th
 
 A simple docker setup utilizing python:3 image and docker-compose as the building driver.
 
-Although docker-compose is recommended as a tool for managing multiple containers it's used in this project with the ease-of-use and with future expansion in mind.
+Although docker-compose is recommended as a tool for managing multiple containers, it's used in this project with the ease-of-use and with future expansion in mind.
 
 Run initial compose with:
 
