@@ -53,5 +53,5 @@ user@host:~$ sudo docker-compose build --no-cache [SERVICE...]
 ## TODOs
 
 * [ ] Refactor the old app
-* [ ] Make Django web view for the app
+* [ ] Make TicTacToe Django app
 * [ ] Recheck the AI algorithms
