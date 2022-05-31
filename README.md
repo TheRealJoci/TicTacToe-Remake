@@ -18,30 +18,6 @@ A simple docker setup utilizing python:3 image and docker-compose as the buildin
 
 Although docker-compose is recommended as a tool for managing multiple containers, it's used in this project for the ease of setup and with future expansion in mind.
 
-Run initial compose with:
-
-```console
-user@host:~$ sudo docker-compose run web django-admin startproject TicTacToeRemake .
-```
-
-(Only on Linux) Change owner for files created with Django:
-
-```console
-user@host:~$ sudo chown -R $USER:$USER TicTacToeRemake manage.py
-```
-
-Compose up to run the app:
-
-```console
-user@host:~$ sudo docker-compose up
-```
-
-Get the SECRET_KEY and paste it in the .env file:
-
-```console
-user@host:~$ python -c "import secrets; print(secrets.token_urlsafe())"
-```
-
 **REMINDER**
 
 After any changes to the project requirements rebuild the service:
