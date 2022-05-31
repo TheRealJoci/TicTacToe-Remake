@@ -12,19 +12,11 @@ A simple Django web implementation of a classic game Tic Tac Toe, to showcase th
   
 * Game AI Agent - powered by Minimax and Alpha-beta pruning algorithms
 
-## Environment setup
+## Environment description
 
 A simple docker setup utilizing python:3 image and docker-compose as the building driver.
 
 Although docker-compose is recommended as a tool for managing multiple containers, it's used in this project for the ease of setup and with future expansion in mind.
-
-**REMINDER**
-
-After any changes to the project requirements rebuild the service:
-
-```console
-user@host:~$ sudo docker-compose build --no-cache [SERVICE...]
-```
 
 ## TODOs
 

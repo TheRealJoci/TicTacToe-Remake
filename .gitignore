@@ -130,6 +130,3 @@ dmypy.json
 
 # VS Code settings
 .vscode
-
-# Private documentation
-docs.md
