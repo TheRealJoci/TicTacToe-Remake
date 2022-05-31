@@ -20,6 +20,13 @@ Although docker-compose is recommended as a tool for managing multiple container
 
 ## TODOs
 
+* [x] Containerize the app with Docker
+  * [x] Make a Dockerfile
+  * [x] Make a docker-compose file
+* [ ] Make a Django web app
+  * [x] Make the "game" app
+  * [ ] Make templates
+  * [ ] Make views
 * [ ] Refactor the old app
-* [ ] Make TicTacToe Django app
-* [ ] Recheck the AI algorithms
+  * [ ] Rebuild the game logic to use reducer for driving the FSM
+  * [ ] Recheck the AI algorithms
