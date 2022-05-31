@@ -8,7 +8,7 @@ A simple Django web implementation of a classic game Tic Tac Toe, to showcase th
   
 * Django - a Python web framework
   
-* Modern and minimal game architecture - FSM powered
+* Modern and minimal game architecture - powered by FSM logic
   
 * Game AI Agent - powered by Minimax and Alpha-beta pruning algorithms
 
